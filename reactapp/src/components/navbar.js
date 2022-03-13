@@ -1,9 +1,9 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div>
-      <h3>Navbar</h3>
+      <h3>{props.title}</h3>
     </div>
   );
 };
