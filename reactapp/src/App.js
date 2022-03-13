@@ -7,7 +7,13 @@ import Navbar from "./components/navbar";
 function App() {
   return (
     <div className="container">
-      <Navbar></Navbar>
+      <Navbar title="Özgeçmiş"></Navbar>
+      <hr></hr>
+      <User
+        name="Yavuz Yarkın Okular"
+        mail="yarkinokular@gmail.com"
+        ikametgah="Pamukkale,Denizli"
+      ></User>
     </div>
   );
 }
