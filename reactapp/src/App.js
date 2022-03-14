@@ -12,7 +12,7 @@ function App() {
       <User
         name="Yavuz Yarkın Okular"
         mail="yarkinokular@gmail.com"
-        ikametgah="Pamukkale,Denizli"
+        location="Pamukkale,Denizli"
       ></User>
     </div>
   );
