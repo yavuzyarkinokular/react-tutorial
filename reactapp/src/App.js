@@ -14,6 +14,11 @@ function App() {
         mail="yarkinokular@gmail.com"
         location="Pamukkale,Denizli"
       ></User>
+      <User
+        name="İlayda Bulut"
+        mail="ibulut48@gmail.com"
+        location="Marmaris,Muğla"
+      ></User>
     </div>
   );
 }
