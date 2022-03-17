@@ -12,11 +12,15 @@ class User extends Component {
 
     return (
       <div>
-        <ul>
-          <li>İsminiz: {name}</li>
-          <li>Mail Adresiniz: {mail}</li>
-          <li>Yaşadığınız şehir: {location} </li>
-        </ul>
+        <div className="card">
+          <div className="card-header d-flex justify-content-between">
+            <h4 className="d-inline"> {name}</h4>
+          </div>
+        </div>
+        <div className="card-body">
+          <p className="card-text">{mail} </p>
+          <p className="card-text">{location} </p>
+        </div>
       </div>
     );
   }
