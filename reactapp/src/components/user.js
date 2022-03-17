@@ -14,7 +14,7 @@ class User extends Component {
       <div>
         <ul>
           <li>İsminiz: {name}</li>
-          <li>Mail Adresiniz: {mail} </li>
+          <li>Mail Adresiniz: {mail}</li>
           <li>Yaşadığınız şehir: {location} </li>
         </ul>
       </div>
