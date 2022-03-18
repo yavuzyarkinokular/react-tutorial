@@ -16,6 +16,10 @@ class User extends Component {
   //     isVisible: false,
   //   };
   // }
+  onClickEvent = (number, e) => {
+    console.log(number);
+  };
+
   render() {
     //destructing
     const { name, mail, location } = this.props;
@@ -25,7 +29,10 @@ class User extends Component {
       <div className="col-md-8 mb-4">
         <div className="card">
           <div className="card-header d-flex justify-content-between">
-            <h4 className="d-inline"> {name}</h4>
+            <h4 className="d-inline" onClick={this.onClickEvent.bind(this, 35)}>
+              {" "}
+              {name}
+            </h4>
           </div>
         </div>
         {isVisible ? (
